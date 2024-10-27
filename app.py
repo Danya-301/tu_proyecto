@@ -4,6 +4,7 @@ import os
 import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
+from keras.models import load_model
 
 app = Flask(__name__)
 model = load_model('model_VGG16_v4.keras')
